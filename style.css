@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: rgb(150, 230, 250);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+p{
+    padding-top: 150px;
+    font-size: 100px;
+}
+
+.Change{
+    color: #9C27B0;
+}
+.Change::after{
+    content: "";
+    animation: change 15s linear infinite;
+}
+@keyframes change{
+    0%{
+        content: "9833987244" ;
+        color:red ;
+    }
+    10%{
+        content: "9833987244" ;
+        
+        color: yellow;
+    }
+    20%{
+        content: "9833987244";
+        color: blue;
+    }
+    30%{
+        content:"9833987244" ;
+        color: pink;
+    }
+    40%{
+        content: "9833987244";
+        color: purple;
+    }
+    50%{
+        content: "9833987244";
+        color: orange;
+    }
+    60%{
+        content:"9833987244" ;
+        color:olive ;
+    }
+    70%{
+        content: "9833987244" ;
+        color:black ;
+    }
+    80%{
+        content: "9833987244";
+        color: maroon;
+    }
+    90%{
+        content:"9833987244" ;
+        color:magenta ;
+    }
+    100%{
+        content: "call me";
+        color: peachpuff ;
+    }
+}
